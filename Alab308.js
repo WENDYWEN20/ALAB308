@@ -11,8 +11,8 @@ console.log(isSum50== 50);
 // Here, we use modulus to check if something is odd.
 // Since % 2 is 0 if even and 1 if odd, we can use
 // arithmetic to count the total number of odd numbers.
-const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) 
-console.log(isTwoOdd>=2)
+const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) ;
+console.log(isTwoOdd>=2);
 
 // Check three: no number larger than 25
 // Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
@@ -30,7 +30,7 @@ console.log (`The four numbers are valid according to the provided criteria: ${i
 // Check if all numbers are divisible by 5, Cache the result in a variable.
 let isDivide5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5);
 console.log(isDivide5==0);
-console.log('All numbers are divisible by 5')
+console.log('All numbers are divisible by 5');
 
 // Check if the first number is larger than the last. 
 let larger=n1>n4;
@@ -46,7 +46,7 @@ console.log('After subtract the first number from the second number, multiply th
 
 // Part 2 question
 // The distance of the trip, in total, is 1,500 miles.
-let distance=1500;
+const distance=1500;
 // fuel budget of $175.
 const budget= 175;
 // average cost of fuel is $3 per gallon
